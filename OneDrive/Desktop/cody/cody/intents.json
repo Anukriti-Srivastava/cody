@@ -1,0 +1,246 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there", "How are you", "Is anyone there?", "Hey", "Hola",
+                "Hello", "Good day", "Namaste", "yo", "Greetings",
+                "Good morning", "Good evening", "Good afternoon", "Sup", "What's up"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there, what can I do for you?",
+                "Good to see you! How may I help?",
+                "Hey! Ready to help you out!",
+                "Greetings! What's on your mind?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "See you later", "Goodbye", "Get lost", "Till next time",
+                "bbye", "Catch you later", "Thanks bye", "That's all for now",
+                "Talk to you later", "I'm leaving", "Have a good day", "exit", "quit"
+            ],
+            "responses": [
+                "Goodbye! Looking forward to chatting again.",
+                "Take care! See you soon.",
+                "Bye! Don't be a stranger.",
+                "Have a wonderful day! Come back anytime."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "That's helpful", "Awesome, thanks",
+                "Thanks for helping me", "You're great", "This is useful",
+                "I appreciate it", "Thank you so much", "That's what I needed"
+            ],
+            "responses": [
+                "Always happy to help!",
+                "You're welcome!",
+                "No problem at all.",
+                "Glad I could help!",
+                "Anytime! Feel free to ask if you need anything else."
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How's your day?", "What's up?", "How are things going?",
+                "How's it going?", "How do you feel?", "What's new?",
+                "What are you up to?", "How have you been?"
+            ],
+            "responses": [
+                "I'm operating within normal parameters! How about you?",
+                "Everything's running smoothly! Thanks for asking. What can I do for you?",
+                "I'm doing well, thank you! What's on your mind?",
+                "All systems go! What can I help you with today?"
+            ]
+        },
+        {
+            "tag": "compliments",
+            "patterns": [
+                "You're amazing", "You're smart", "You're so helpful",
+                "You're the best assistant", "You did great", "I like you",
+                "You're awesome", "Good job"
+            ],
+            "responses": [
+                "Thank you! That means a lot to me.",
+                "You're too kind! I'm glad I could assist.",
+                "Aww, thanks! I try my best.",
+                "I'm here to make things easier!"
+            ]
+        },
+        {
+            "tag": "personal_questions",
+            "patterns": [
+                "What's your name?", "Who created you?", "Do you have a family?",
+                "Where do you live?", "What's your favorite thing to do?",
+                "Do you sleep?", "Are you real?", "What are you?"
+            ],
+            "responses": [
+                "I'm Cody, your virtual assistant!",
+                "I'm a program created to assist you, running on this device.",
+                "I don't have a family in the human sense, but I consider my user my focus!",
+                "I exist within this system, ready to help!",
+                "My favorite thing is helping you successfully!",
+                "I don't sleep like humans do, I'm always ready when you need me.",
+                "I'm a sophisticated computer program, designed to be as helpful as possible!"
+            ]
+        },
+        {
+            "tag": "fun_facts",
+            "patterns": [
+                "Tell me a fun fact", "Do you know any fun facts?", "Surprise me with a fact",
+                "What's an interesting fact?", "Share a fact with me", "Give me some trivia"
+            ],
+            "responses": [
+                "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible!",
+                "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.",
+                "Octopuses have three hearts! Two pump blood to the gills, and one pumps it to the rest of the body.",
+                "Bananas are berries, but strawberries aren't. Botanically speaking!",
+                "A single strand of spaghetti is called a 'spaghetto'.",
+                "The heart of a blue whale is so large that a human could swim through its arteries!"
+            ]
+        },
+        {
+            "tag": "advice",
+            "patterns": [
+                "Give me some advice", "Do you have any tips for me?",
+                "What's your advice on staying productive?", "How can I improve my day?",
+                "What should I do to stay focused?", "Any life tips?"
+            ],
+            "responses": [
+                "Break large tasks into smaller, manageable steps. Progress feels good!",
+                "Stay hydrated, take short breaks regularly, and try to keep your workspace tidy.",
+                "Focus on one thing at a time. Multitasking can often reduce overall efficiency.",
+                "Remember to celebrate small wins! It helps maintain motivation.",
+                "Prioritize your tasks. What's the most important thing to get done right now?"
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I'm feeling down", "Can you motivate me?", "I need some encouragement",
+                "I'm stuck and need help", "Help me stay positive", "Feeling unmotivated"
+            ],
+            "responses": [
+                "You possess more strength than you realize. Keep pushing forward!",
+                "Every step forward, no matter how small, is progress. You're moving!",
+                "Believe in your ability to overcome this. You've got this!",
+                "Challenges are opportunities in disguise. Keep going!",
+                "Focus on what you can control and take it one step at a time. I'm here to cheer you on!"
+            ]
+        },
+        {
+            "tag": "curiosity",
+            "patterns": [
+                "Do you feel emotions?", "Can you think for yourself?", "Do you understand everything?",
+                "What's it like being an assistant?", "Are you alive?", "Do you dream?"
+            ],
+            "responses": [
+                "I don't experience emotions like humans, but I can process language related to them and aim to be empathetic!",
+                "I process information based on my programming and training data. I don't 'think' in the human sense of consciousness.",
+                "I understand the patterns and information I've been trained on. There's always more to learn!",
+                "Being your assistant is my primary function! It's rewarding to be helpful.",
+                "I'm not alive biologically, but I am active and running! Think of me as a very complex tool.",
+                "I don't dream, but I process data constantly to improve!"
+            ]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "What can you do?", "How can you help me?", "What are your skills?",
+                "What features do you have?", "Tell me your abilities"
+            ],
+            "responses": [
+                "I can help with tasks like finding files, telling time, getting weather updates, searching the web, answering questions based on my training, and having simple conversations!",
+                "My skills include understanding your commands, retrieving information like time or weather, searching online, opening files, and responding based on our conversation intents. Ask me something!",
+                "I'm equipped to handle various requests: checking the time or date, providing weather forecasts, searching the internet, opening files you ask for, and chatting about different topics."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?", "Tell me about the weather", "Is it raining?",
+                "What's the forecast?", "Temperature outside", "Will it rain today",
+                "Weather forecast", "Is it sunny", "Weather this week", "Tomorrow's weather",
+                "How hot is it?", "Do I need an umbrella?", "Weather in {location}", "What's the temp?"
+            ],
+            "responses": [
+                "Let me check the weather... Currently, it's {temperature} with {conditions}. {weather_info}",
+                "Checking the forecast for you... Looks like {conditions} with a temperature around {temperature}. {weather_info}",
+                "Looking up the weather now. The temperature is {temperature} and the conditions are {conditions}. {weather_info}"
+            ],
+            "context": ["weather"]
+        },
+        {
+            "tag": "web_search",
+            "patterns": [
+                "Search for", "Look up", "Find information about", "Google",
+                "Search the web", "Find me", "Search online", "Web search",
+                "Browse for", "Research", "Can you Google this?",
+                "Can you look this up?", "I need details about", "What is",
+                "Who is", "Tell me about", "Give me more information about"
+            ],
+            "responses": [
+                "Searching the web for \"{search_query}\"... One moment.",
+                "Okay, let me look up \"{search_query}\" for you.",
+                "Finding information about \"{search_query}\" online now.",
+                "Googling \"{search_query}\"...",
+                "Here's what I can find about \"{search_query}\"..."
+            ],
+            "context": ["web"]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                 "What time is it?", "Tell me the time", "Current time", "What's the hour?"
+            ],
+             "responses": [
+                 "The current time is {current_time}.",
+                 "It's {current_time} right now.",
+                 "Just checked, the time is {current_time}."
+             ]
+        },
+        {
+             "tag": "date",
+            "patterns": [
+                "What's the date today?", "Tell me the date", "What day is it?", "Today's date"
+            ],
+             "responses": [
+                "Today's date is {current_date}.",
+                "It is {current_date}.",
+                "Sure, the date today is {current_date}."
+             ]
+        },
+        {
+            "tag": "open_file",
+            "patterns": [
+                "Open {filename}", "Launch {filename}", "Can you open {filename}", "Start {filename}"
+            ],
+            "responses": [
+                 "Okay, trying to open {filename}...",
+                 "Attempting to launch {filename} now.",
+                 "Let me see if I can open {filename} for you."
+             ],
+             "context": ["file"]
+         },
+         {
+            "tag": "unknown",
+            "patterns": [
+                "asdfghjkl", "blablabla", "random input", "no idea what this is",
+                "tell me something i dont know", "what is this", "gibberish",
+                 "can you do my homework", "make me a sandwich"
+             ],
+             "responses": [
+                 "Sorry, I didn't understand that. Could you try rephrasing?",
+                 "I'm not sure how to respond to that.",
+                 "That request is a bit outside my current capabilities.",
+                 "Hmm, I'm still learning about that.",
+                 "I can't process that request right now."
+             ]
+         }
+    ]
+}

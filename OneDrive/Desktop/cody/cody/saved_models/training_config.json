@@ -1,0 +1,14 @@
+{
+    "intents_file": "intents.json",
+    "glove_path": "glove.6B.100d.txt",
+    "vocab_size": 5000,
+    "embedding_dim": 100,
+    "max_len": 25,
+    "validation_split": 0.2,
+    "learning_rate": 0.0005,
+    "batch_size": 128,
+    "epochs": 100,
+    "model_checkpoint_path": "model_checkpoints/best_intent_model.h5",
+    "model_output_dir": "saved_models",
+    "augmentation_factor": 3
+}
